@@ -10,7 +10,7 @@ def encode(password):
 
 def decode(password):
     decoded = ""
-    for i in password:
+    for i in password:  # this is mohand's change
         digit = int(i) - 3
         decoded += str(digit)
     return decoded
